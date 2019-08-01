@@ -1,5 +1,6 @@
 node('slave-local'){
   stage('build'){
+    echo env.BRANCH_NAME
     checkout scm
   }
   stage('sonar'){
