@@ -1,4 +1,4 @@
-node('slave-localhost'){
+node('slave-local'){
   stage('build'){
     checkout scm
   }
