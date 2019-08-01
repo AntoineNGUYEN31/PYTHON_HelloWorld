@@ -6,7 +6,7 @@ node('slave-local'){
     }
   }
   stage('sonar'){
-    sh "sonar-scanner"
+    //sh "sonar-scanner"
     input 'wait'
   }
 }
