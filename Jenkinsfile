@@ -11,7 +11,7 @@ node('slave-local'){
   stage('Compile'){
     echo "done"
   }
-  stage('Compile'){
+  stage('Test'){
     echo "done"
   }
   stage('sonar'){
