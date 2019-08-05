@@ -1,3 +1,7 @@
+properties([
+    buildDiscarder(logRotator(daysToKeepStr: '3', numToKeepStr: '3')),
+])
+
 node('slave-local'){
   stage('Checkout'){
     echo env.BRANCH_NAME
