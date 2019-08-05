@@ -14,7 +14,7 @@ node('slave-local'){
   stage('Test'){
     echo "done"
   }
-  stage('sonar'){
+  stage('Sonarqube'){
     sh "/run/media/minwoo/SOFTWARE/sonar-scanner-4.0.0.1744-linux/bin/sonar-scanner"
     input 'wait'
   }
