@@ -4,6 +4,9 @@ node('slave-local'){
     if (env.BRANCH_NAME == 'develop') {
       checkout scm
     }
+    if (env.BRANCH_NAME == 'master') {
+      checkout scm
+    }
   }
   stage('Compile'){
     echo "done"
