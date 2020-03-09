@@ -1,0 +1,6 @@
+delivery;exe;IN;1
+deliverySubTask;exe;IN;10
+deliverySubTask;copy;IN;11
+deliverySubTask;copy;OUT;2000
+deliverySubTask;exe;OUT;2010
+delivery;exe;OUT;2020

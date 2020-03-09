@@ -7,6 +7,7 @@ RUN pip install Flask &&\
 #EXPOSE 80
 #ENV PATH /opt/anaconda3/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 WORKDIR /app
-ADD . /app
+ADD app.py /app
+ADD core.py /app
 EXPOSE 8050
 CMD ["python","app.py"]
