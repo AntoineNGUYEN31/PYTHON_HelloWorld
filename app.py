@@ -22,7 +22,7 @@ colors = {
 }
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
-        children='Hello Dash Application',
+        children='My Dash Application',
         style={
             'textAlign': 'center',
             'color': colors['text']
