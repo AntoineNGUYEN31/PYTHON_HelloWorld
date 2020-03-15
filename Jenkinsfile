@@ -2,7 +2,7 @@ properties([
     buildDiscarder(logRotator(daysToKeepStr: '3', numToKeepStr: '3')),
 ])
 
-node('slave-local'){
+node('slave-ssh'){
   stage('Checkout'){
     echo env.BRANCH_NAME
     if (env.BRANCH_NAME == 'develop') {
