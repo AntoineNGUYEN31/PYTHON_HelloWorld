@@ -1,0 +1,4 @@
+com/etang/rest/model/User.class
+com/etang/rest/SpringBootDemoApplication.class
+com/etang/rest/controller/UserController.class
+com/etang/rest/model/Users.class
