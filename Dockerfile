@@ -1,7 +1,8 @@
 FROM python:3.7-alpine
 LABEL maintainer="nguyen.ensma@gmail.com"
 RUN pip install Flask &&\
-    pip install Dash
+    pip install Dash &&\
+    pip install requests
 #COPY src des
 #ADD src des/
 #EXPOSE 80
